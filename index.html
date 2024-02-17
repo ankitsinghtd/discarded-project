@@ -51,8 +51,18 @@
       <div class="home-buttons">
         <button class="make-a-vote"><span>Make a Vote</span></button>
       <button class="create-a-poll"><span>Create a Poll</span></button>
+      <button id="signInButton"><span>Log In</span></button>
+      <button id="signOutButton"><span>Sign Out</span></button>
+      <div id="message">
+        <p>You are signed in !</p>
+      </div>
+      <form id="emailPasswordForm" style="display: none;">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button type="submit">Sign In with Email/Password</button>
+    </form>
       </div>
     </div>
-    <script src="/src/js/index.js"></script>
+    <script type="module" src="/src/js/index.js"></script>
   </body>
 </html>
