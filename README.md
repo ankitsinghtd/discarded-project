@@ -1,2 +1,1 @@
-# 6semMinorProject
-voting system using blockchain
+Template UI
